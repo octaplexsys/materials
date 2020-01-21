@@ -1,0 +1,9 @@
+$ ./mill clean app.runBackground # stop the webserver running in the background
+
+$ ./mill app.test
+[50/56] app.test.compile
+[info] Compiling 1 Scala source to...
+[info] Done compiling.
+[56/56] app.test.test
+-------------------------------- Running Tests --------------------------------
++ app.ExampleTests.MinimalApplication 629ms

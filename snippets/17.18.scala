@@ -1,0 +1,5 @@
+implicit val cc = new castor.Context.Test()
+val writer = new Writer(os.pwd / "log.txt", os.pwd / "log-old.txt", rotateSize = 50)
+val uploader = new Uploader("https://httpbin.org/post")
+val encoder = new Encoder(Seq(writer, uploader))
+val logger = new Logger(encoder)

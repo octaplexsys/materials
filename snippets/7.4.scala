@@ -1,0 +1,3 @@
+@ val gitStatus = os.proc("git", "status").call()
+gitStatus: os.CommandResult = CommandResult(
+...

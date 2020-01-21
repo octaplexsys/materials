@@ -1,0 +1,5 @@
+@ val helloHello = hello(123) + " " + hello(456)
+helloHello: String = "hello 123 hello 456"
+
+@ helloHello.reverse
+res17: String = "654 olleh 321 olleh"
